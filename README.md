@@ -6,9 +6,18 @@ Submission by Niyati Parekh, Batch 01 (GLS University).
 
 | # | Project | Description | Folder |
 |---|---------|-------------|--------|
-| 1 |	Document_QA_System-main | [One-line description] |Document_QA_System-main |
-| 2 | Multi-Tool Autonomus AI Agent | [One-line description] |Multi-Tool Autonomus AI Agent |
-| 3 | Structured LLM Prompt Pipeline & JSON Extractor | [One-line description] |Structured LLM Prompt Pipeline & JSON Extractor/ |
+| 1 |	Document_QA_System-main | 
+Use google-generativeai or openai Python SDK, prompt engineering with few-shot examples, and Pydantic schema validation. |
+Document_QA_System-main |
+
+| 2 | Multi-Tool Autonomus AI Agent |
+Use LangChain document loaders, RecursiveCharacterTextSplitter, ChromaDB vector store, and RetrievalQA chain. |
+Multi-Tool Autonomus AI Agent |
+
+
+| 3 | Structured LLM Prompt Pipeline & JSON Extractor |
+Define LangChain tools, bind them to an LLM, and run an agent executor loop displaying reasoning chain (thought -> action -> observation -> final answer).
+|Structured LLM Prompt Pipeline & JSON Extractor |
 
 ## Tech Stack
 Python 3, LangChain, [vector DB, e.g. FAISS/Chroma], [LLM used]
